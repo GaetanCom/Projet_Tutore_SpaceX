@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <link rel="stylesheet" href="style_footer_header.css"/>
+      <link rel="stylesheet" href="style.css"/>
+      <link rel="icon" href="Images/Logo2.png"/>
+      <title> Titre Page </title>
+  </head>
+
+  <body>
+    <?php include("header.html"); ?>
+    <?php include("Sous_Menu.html"); ?>
+
+    <section id="contenu_principal">
+      	<!-- Le contenu de la page -->
+    </section>
+    
+      <?php include("footer.html"); ?>
+  </body>
+</html>

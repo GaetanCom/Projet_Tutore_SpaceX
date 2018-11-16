@@ -1,0 +1,71 @@
+body{
+  background-color: #E7E7E7;
+  margin: 0;
+  padding-bottom: 160px;
+  position: relative;
+  width: 100%;
+  font-family: Arial, sans serif;
+  text-align: justify;
+}
+
+.contenu{
+	margin: auto;
+  width: 60%;
+}
+
+#contenu_principal{
+  margin: auto;
+  width: 60%;
+  display: block;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+hr{
+  color: #000000;
+  width: 75%;
+  margin: auto;
+}
+
+article{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #B4B4B4;
+  margin-bottom: 20px;
+  padding : 20px 0 20px 0;
+  border-radius: 0 0 5px 5px ;
+}
+
+h2{
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  border: solid 3px #656566;
+  background-color: #005288;
+  color: #FFFFFF;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 6%;
+  border-radius: 100px 100px 10px 10px;
+}
+
+article > h3{
+  font-size: 30px;
+  padding-left: 2%;
+  margin: 0;
+  width: 98%
+}
+
+.Internet_division > #satellite_starlink_image{
+  width: 50%;
+  margin: 20px;
+  padding-left: 40%;
+}
+
+#Internet > .Internet_division{
+  width: 90%;
+  margin-left: 5%;
+
+  /*float: left;*/
+}

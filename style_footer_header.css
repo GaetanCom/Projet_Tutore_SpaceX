@@ -1,0 +1,171 @@
+/* HEADER */
+
+header{
+  background-color: #000000;
+  display: inline-block;
+  height: 50px;
+}
+
+#Logo_site{
+  width: 30%;
+  margin: 5px 0 5px 0;
+  float: left;
+  display: block;
+  outline: 0;
+}
+
+#Logo_site:hover{
+  filter: blur(2px);
+}
+
+#menu_principal{
+  width: 70%;
+  float: left;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1.9%;
+  /* position: absolute; */
+  /* bottom: 0; */
+}
+
+#menu_principal .menu{
+  color: #FFFFFF;
+  text-decoration: none;
+  width: 20%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1vmax;
+  outline: 0;
+}
+
+.contenu .menu{
+  height: 100%;
+}
+
+#menu_principal .menu :focus, #menu_principal .menu:hover{
+  /*color: #A7A9AC;*/
+  /*border-bottom: 2px #A7A9AC solid;*/
+  /*border-width: 20px;*/
+  /*box-decoration-break: 10px;*/
+
+}
+
+#menu_principal .menu:hover #A{
+	display: block;
+	margin: auto;
+	width: 55%;
+	border-bottom: 3px #A7A9AC solid;
+}
+
+#menu_principal .menu:hover #E{
+	display: block;
+	margin: auto;
+	width: 80%;
+	border-bottom: 3px #A7A9AC solid
+}
+
+#menu_principal .menu:hover #S{
+	display: block;
+	margin: auto;
+	width: 53%;
+	border-bottom: 3px #A7A9AC solid
+}
+
+#menu_principal .menu:hover #F{
+	display: block;
+	margin: auto;
+	width: 51%;
+	border-bottom: 3px #A7A9AC solid
+}
+
+#menu_principal .menu:hover #C{
+	display: block;
+	margin: auto;
+	width: 90%;
+	border-bottom: 3px #A7A9AC solid
+}
+
+/* ========================================================================== */
+
+/* FOOTER */
+
+footer{
+  background-color: #000000; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 160px;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.contenu > div {
+  width: 33%;
+  display: block;
+  float: left;
+  padding-top: 1%;
+}
+
+#Remerciements{
+  text-align: center;
+}
+
+.divRS > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 100%;
+}
+  
+.divRS{
+  margin: 5px 0 2px 0;
+}
+
+.logoRS{
+  width: 40px;
+  height: 40px;
+}
+
+.divRS > a:hover{
+  color: pink;
+  filter: pink;
+}
+
+/* ========================================================================== */
+
+/* SOUS_MENU */
+
+#Sous_Menu{
+	display: block;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(0,0,0,0.95);
+	position: relative;
+}
+
+#fixed{
+	position: fixed;
+}
+
+#Sous_Menu_Contenu > h4{
+  	padding-left: 5%;
+}
+
+#Sous_Menu_Contenu > div{
+  	text-decoration: none;
+}
+
+#Sous_Menu_Contenu > div > a{
+  	text-decoration: none;
+  	color: #000000;
+}
+
+#Sous_Menu_Contenu > div > p {
+  	margin-top: 2px;
+  	margin-bottom: 2px;
+}
+
+#Sous_Menu_Contenu > div > a:hover{
+  	color: #A7A9AC;
+}
