@@ -8,18 +8,22 @@ body{
   text-align: justify;
 }
 
+p{
+	margin: 0;
+}
+
 .contenu{
 	margin: auto;
   width: 60%;
 }
 
 #contenu_principal{
-  margin: auto;
-  width: 60%;
-  display: block;
-  overflow: hidden;
-  margin-top: 30px;
-  margin-bottom: 30px;
+	margin-top: 0;
+  	display: block;
+  	overflow: hidden;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-image: url("Images/fond5.png");
 }
 
 hr{

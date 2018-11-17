@@ -1,0 +1,131 @@
+.div_accueil_D{
+	height: 400px;
+	padding: 5px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	border-radius: 2px;
+	overflow: hidden;
+	transform: scale(1);
+  	transition: 0.5s;
+  	font-weight: bold;
+}
+
+.div_accueil_D:hover{
+	transform: scale(1.01);
+  	transition: 0.5s;
+}
+
+.div_accueil_D > div{
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.div_accueil_D > div > img {
+	display: block;
+	float: right;
+	height: 400px;
+}
+
+.div_accueil_D > div > p {
+	font-size: 125px;
+	padding-top: 200px;
+	padding-left: 20%;
+	color: #005288;
+}
+
+.div_accueil_G{
+	height: 400px;
+	padding: 5px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	border-radius: 2px;
+	overflow: hidden;
+	transform: scale(1);
+  	transition: 0.5s;
+  	font-weight: bold;
+}
+
+.div_accueil_G:hover{
+	transform: scale(1.01);
+  	transition: 0.5s;
+}
+
+.div_accueil_G > div{
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.div_accueil_G > div > img {
+	display: block;
+	float: left;
+	height: 400px;
+}
+
+.div_accueil_G > div > p {
+	font-size: 125px;
+	padding-top: 200px;
+	padding-right: 20%;
+	color: #005288;
+}
+
+.images_accueil{
+	width: 
+}
+
+/* SpaceX */
+
+#spacex_accueil{
+	display: block;
+	width: 85%; 
+  	background-color: #D2D2D2;
+}
+
+#spacex_accueil > div {
+	line-height: 400px;	
+	margin-left: 20px;
+	margin-top: 100px;
+}
+
+#image_spacex{
+	width: 180%;
+	height: 100%;
+}
+
+#titre_spacex{
+	line-height: 400px;
+	text-align: center;
+	color: #005288;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: #FFFFFF;
+	font-weight: bold;
+}
+
+/* Elon Musk */
+
+#elonmusk_accueil{
+	display: block;
+	width: 85%;
+	margin-left: 15%;
+	background-color: #D2D2D2;
+}
+
+
+
+/* Fusées */
+
+#fusees_accueil{
+	display: block;
+	width: 85%; 
+  	background-color: #D2D2D2;
+}
+
+/* Concurrents */
+
+#concurrents_accueil{
+	display: block;
+	width: 85%;
+	margin-left: 15%;
+	background-color: #D2D2D2;
+}
