@@ -1,19 +1,6 @@
-<head>
-	
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
- 
- 	<script type="text/javascript" language="javascript">
-		$(window).scroll(function() {   
-    		var scroll = $(window).scrollTop();
-
-    		if (scroll >= 60) {
-    		    $("#Sous_Menu").removeId("fixed");
-    		} else {
-    		    $("#Sous_Menu").addId("fixed");
-    		}
-		});
-	</script>
-</head>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js">
+	<?php include("Sous_menu.js"); ?> 
+</script>
 
 <nav id="Sous_Menu">
 	<?php
@@ -55,15 +42,15 @@
 
 
 
-		if( $page == "/ElonMusk.php"){
-			echo $ElonMusk;
-		} else if ($page == "/SpaceX.php"){
-			echo $SpaceX;
-		} else if ($page == "/fusee.php"){
-			echo $Fusees;
-		} else if ($page == "/Concurrents.php"){
-			echo $Concurrents;
-		}
+		// if( $page == "/ElonMusk.php"){
+		// 	echo $ElonMusk;
+		// } else if ($page == "/SpaceX.php"){
+		// 	echo $SpaceX;
+		// } else if ($page == "/fusee.php"){
+		// 	echo $Fusees;
+		// } else if ($page == "/Concurrents.php"){
+		// 	echo $Concurrents;
+		// }
 
 	?>
 </nav>

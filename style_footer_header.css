@@ -139,13 +139,15 @@ footer{
 #Sous_Menu{
 	display: block;
 	width: 100%;
-	height: 30px;
-	background-color: rgba(0,0,0,0.95);
-	position: relative;
+	height: 40px;
+	background-color: rgba(255,0,0,0.95);
+  position: fixed;
+  top: 50px;
 }
 
 #fixed{
-	position: fixed;
+	position: relative;
+  background-color: blue;
 }
 
 #Sous_Menu_Contenu > h4{

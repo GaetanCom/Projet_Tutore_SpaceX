@@ -12,7 +12,7 @@
     <?php include("header.html"); ?>
     <?php include("Sous_Menu.php"); ?>
 
-    <section id="contenu_principal">
+    <section class="contenu_principal">
         <div id="Presentation_SpaceX"> 
         	<h2> Présentation Space X </h2>
 

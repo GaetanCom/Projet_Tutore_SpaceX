@@ -10,31 +10,28 @@
   </head>
 
   <body>
-      <!-- <?php include("header.html"); ?> -->
 
-    <section id="contenu_principal">
+    <section id="menu_accueil">
 
-    	<a href="SpaceX.php" class="div_accueil_G" id="spacex_accueil">
-    		<div class="images_accueil"> <img id="image_spacex" src="Images/Logo.png"> </div>
+    	<a href="SpaceX.php" class="div_accueil">
+    		<p> SpaceX </p>
     	</a>
 
-    	<a href="ElonMusk.php" class="div_accueil_D" id="elonmusk_accueil">
-    		<div class="texts_accueil"> <p> Elon Musk </p> </div>
-    		<div class="images_accueil"> <img src="Images/ElonMusk.png"></div>
+    	<a href="ElonMusk.php" class="div_accueil">
+    		Elon Msuk
     	</a>
 
-    	<a href="Fusees.php" class="div_accueil_G" id="fusees_accueil">
-    		<div class="images_accueil"> <img src="Images/Falcon9.png"> </div>
-    		<div class="texts_accueil"> <p> Fusées </p> </div>
+    	<a href="Fusees.php" class="div_accueil">
+    		Fusées
 		</a>
 
-    	<a href="" class="div_accueil_D" id="concurrents_accueil">
-    		<div class="texts_accueil"> <p> Concurrents </p> </div>
-    		<div class="images_accueil"> <img src="Images/NASA.png"> </div>
+    	<a href="" class="div_accueil">
+    		Concurrents
     	</a>
       	
     </section>
     
-      <?php include("footer.html"); ?>
+    <?php include("footer.html"); ?>
+    
   </body>
 </html>

@@ -17,13 +17,23 @@ p{
   width: 60%;
 }
 
-#contenu_principal{
-	margin-top: 0;
+.contenu_principal{
+	margin-top: 35px;
+	padding-top: 5px;
   	display: block;
   	overflow: hidden;
   	background-size: cover;
   	background-attachment: fixed;
   	background-image: url("Images/fond5.png");
+}
+
+.contenu_principal > div {
+	height: 300px; 
+	overflow: hidden;
+	margin-top: 5px;
+	background-color: yellow;
+	border-top: gray 2px solid;
+	border-bottom: gray 2px solid;
 }
 
 hr{
@@ -50,7 +60,6 @@ h2{
   color: #FFFFFF;
   height: 60px;
   line-height: 60px;
-  padding-left: 6%;
   border-radius: 100px 100px 10px 10px;
 }
 
