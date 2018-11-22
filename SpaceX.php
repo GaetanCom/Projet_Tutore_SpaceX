@@ -5,114 +5,43 @@
       <link rel="stylesheet" href="style_footer_header.css"/>
       <link rel="stylesheet" href="style.css"/>
       <link rel="icon" href="Images/Logo2.png"/>
-      <title> Entreprise | SpaceX</title>
+      <title> Entreprise | SpaceX </title>
   </head>
 
   <body>
     <?php include("header.html"); ?>
     <?php include("Sous_Menu.php"); ?>
 
-    <section class="contenu_principal">
-        <div id="Presentation_SpaceX"> 
-        	<h2> Présentation Space X </h2>
+    <main>
+    	<section class="section_G section_1" id="">
+    		<h2> PRESENTATION </h2>
 
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
-        	<p> a </p>
+    		<a href=""> </a>
+    		
+    	</section>
 
-        </div>
+    	<section class="section_D section_2" id="">
+    		<h2> PROJETS </h2>
+    		
+    	</section>
 
-        <div id="Projets_Entreprise">
-        	<h2> PROJETS </h2>
-            <article id="Lune">
-                <h3> Mission privée Lunaire </h3>
+    	<section class="section_G section_3" id=""> 
+    		<h2> HISTORIQUE </h2>
+    		
+    	</section>
 
-                <div> 
+    	<section class="section_D section_4" id=""> 
+    		
+    	</section>
 
-                </div>
-            </article>
+    	<section class="section_G section_5" id=""> 
+    		
+    	</section>
 
-            <article id="Mars">
-                <h3> Mission sur Mars </h3>
-
-                <div> </div>
-            </article>
-
-            <article id="Terre">
-                <h3> Transport Terre à Terre </h3>
-
-                <div> </div>
-            </article>
-
-            <article id="Internet">
-                <h3> Starlink </h3>
-
-                <div class="Internet_division">
-                	<p> Dès 2019, SpaceX veut lancer lancer 4 425 satellites en orbite basse. </p>
-                	<p> Les deux satellites prototypes ont été lancés en février 2018. </p> 
-                </div>
-
-                <div class="Internet_division">
-                	<img id="satellite_starlink_image" src="Images/satellite_starlink.jpeg" title="" alt=""/>
-                	<p> Satellite prototype lancé par SpaceX. </p>
-                </div>
-
-            </article>
-
-        </div>
-
-        <div id="Historique">
-            <h2> Historique </h2>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-            <p> a </p>
-        </div>
-
-    </section>
+    	<section class="section_G section_6" id=""> 
+    		
+    	</section>
+    </main>
     
       <?php include("footer.html"); ?>
   </body>

@@ -12,51 +12,37 @@
     <?php include("header.html"); ?>
     <?php include("Sous_Menu.php"); ?>
 
-    <section id="contenu_principal">
-      <div id="Dragon">
-        <h2> Dragon </h2>
+    <main>
+      <section class="section_G section_1" id="Dragon">
+        <h2> DRAGON </h2>
 
-        <article>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-          <p> a </p>
-        </article>
-            
+        <a href=""> </a>
+        
+      </section>
 
-      </div>
+      <section class="section_D section_2" id="Falcon9">
+        <h2> FALCON 9 </h2>
+        
+      </section>
 
-      <div id="Falcon9">
-        <h2> Falcon 9 </h2>
-            
+      <section class="section_G section_3" id="Falcon_Heavy"> 
+        <h2> FALCON HEAVY </h2>
+        
+      </section>
 
-      </div>
+      <section class="section_D section_4" id="Big_Falcon_Rocket"> 
+        <h2> BIG FLACON ROCKET </h2>
+        
+      </section>
 
-      <div id="Falcon_Heavy">
-        <h2> Falcon Heavy </h2>
-            
+      <section class="section_G section_5" id=""> 
+        
+      </section>
 
-      </div>
-
-      <div id="Big_Falcon_Rocket">
-        <h2> Big Falcon Rocket </h2>
-            
-
-      </div>
-    </section>
+      <section class="section_D section_6" id=""> 
+        
+      </section>
+    </main>
 
 
   	<?php include("footer.html"); ?>

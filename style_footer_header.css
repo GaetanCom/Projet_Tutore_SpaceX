@@ -1,9 +1,14 @@
 /* HEADER */
 
 header{
-  background-color: #000000;
-  display: inline-block;
-  height: 50px;
+    background-color: #000000;
+    display: inline-block;
+    height: 50px;
+}
+
+.contenu{
+    margin: auto;
+    width: 60%;
 }
 
 #Logo_site{

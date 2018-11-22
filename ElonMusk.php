@@ -12,23 +12,36 @@
     <?php include("header.html"); ?>
     <?php include("Sous_Menu.php"); ?>
 
-    <section id="contenu_principal">
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-        <p>a</p>
-      	<p>a</p>
-    </section>
+    <main>
+      <section class="section_G section_1" id="">
+        <h2> PRESENTATION </h2>
+
+        <a href=""> </a>
+        
+      </section>
+
+      <section class="section_D section_2" id="">
+        <h2> SES ENTREPRISES </h2>
+        
+      </section>
+
+      <section class="section_G section_3" id=""> 
+        <h2> SCANDALES </h2>
+        
+      </section>
+
+      <section class="section_D section_4" id=""> 
+        
+      </section>
+
+      <section class="section_G section_5" id=""> 
+        
+      </section>
+
+      <section class="section_G section_6" id=""> 
+        
+      </section>
+    </main>
     
       <?php include("footer.html"); ?>
   </body>

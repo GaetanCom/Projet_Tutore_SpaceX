@@ -1,45 +1,83 @@
-body{
-  background-color: #E7E7E7;
-  margin: 0;
-  padding-bottom: 160px;
-  position: relative;
-  width: 100%;
-  font-family: Arial, sans serif;
-  text-align: justify;
-}
+/* TOUTES LES PAGES */
 
-p{
-	margin: 0;
-}
-
-.contenu{
-	margin: auto;
-  width: 60%;
-}
-
-.contenu_principal{
-	margin-top: 35px;
-	padding-top: 5px;
-  	display: block;
-  	overflow: hidden;
+body {
+  	background-color: #E7E7E7;
+  	margin: 0;
+  	padding-bottom: 160px;
+  	position: relative;
+  	width: 100%;
+  	font-family: Arial, sans serif;
+  	text-align: justify;	
   	background-size: cover;
   	background-attachment: fixed;
   	background-image: url("Images/fond5.png");
 }
 
-.contenu_principal > div {
-	height: 300px; 
+main {
+	margin-top: 35px;
+  	display: block;
+  	overflow: hidden;
+}
+
+section {
+	height: 30vw; 
+	display: block;
 	overflow: hidden;
 	margin-top: 5px;
-	background-color: yellow;
+	margin-bottom: 5px;
 	border-top: gray 2px solid;
 	border-bottom: gray 2px solid;
 }
 
-hr{
-  color: #000000;
-  width: 75%;
-  margin: auto;
+.section_1 {
+	background-color: #1E1E1E;
+	color: white;
+}
+
+.section_2 {
+	background-color: #3C3C3C;
+}
+
+.section_3 {
+	background-color: #5A5A5A;
+}
+
+.section_4 {
+	background-color: #787878;
+}
+
+.section_5 {
+	background-color: #969696;
+}
+
+.section_6 {
+	background-color: #B4B4B4;
+}
+
+.section_G > h2{
+  color: #FFFFFF;
+  font-size: 5vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  height: 20vw;
+  margin-left: 2vw;
+  float: left;
+}
+
+.section_D > h2{
+  color: #FFFFFF;
+  font-size: 5vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  height: 20vw;
+  margin-right: 2vw;
+  float: right;
+}
+
+/*hr{
+  	color: #000000;
+  	width: 75%;
+  	margin: auto;
 }
 
 article{
@@ -51,17 +89,7 @@ article{
   border-radius: 0 0 5px 5px ;
 }
 
-h2{
-  font-size: 40px;
-  margin: 0;
-  text-align: center;
-  border: solid 3px #656566;
-  background-color: #005288;
-  color: #FFFFFF;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 100px 100px 10px 10px;
-}
+
 
 article > h3{
   font-size: 30px;
@@ -81,4 +109,4 @@ article > h3{
   margin-left: 5%;
 
   /*float: left;*/
-}
+/*}*/
