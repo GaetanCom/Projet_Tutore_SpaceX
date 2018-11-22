@@ -18,20 +18,20 @@
     	</a>
 
     	<a href="ElonMusk.php" class="div_accueil">
-    		Elon Msuk
+    		<p>Elon Musk</p>
     	</a>
 
     	<a href="Fusees.php" class="div_accueil">
-    		Fusées
+    		<p>Fusées</p>
 		</a>
 
     	<a href="" class="div_accueil">
-    		Concurrents
+    		<p>Concurrents</p>
     	</a>
-      	
+
     </section>
-    
+
     <?php include("footer.html"); ?>
-    
+
   </body>
 </html>
