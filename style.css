@@ -29,12 +29,13 @@ section {
   background-color: #FFFFFF;
 }
 
-.section_B > h2{
+.section_B > div > h2{
   color: #000000;
   font-size: 5vw;
+  width: 50vw;
   margin-top: 5vw;
   margin-bottom: 5vw;
-  height: 20vw;
+  height: 7vw;
   margin-left: 2vw;
   float: left;
 }
@@ -43,20 +44,57 @@ section {
   background-color: #000000;
 }
 
-.section_N > h2{
+.section_N > div > h2{
   color: #FFFFFF;
   font-size: 5vw;
   margin-top: 5vw;
   margin-bottom: 5vw;
-  height: 20vw;
+  height: 7vw;
   margin-right: 2vw;
   float: right;
 }
 
+.section_B > div {
+  width: 50vw;
+  float: left;
+}
+
+.section_N > div {
+  width: 50vw;
+  float: right;
+}
+
+.section_B > div > p {
+  color: #000000;
+  width: 40vw;
+  float: left;
+  display: block;
+  position: relative;
+  bottom: 1vw;
+  text-align: justify;
+  font-size: 1.2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.section_N > div > p {
+  color: #FFFFFF;
+  width: 40vw;
+  float: right;
+  display: block;
+  position: relative;
+  bottom: 1vw;
+  text-align: justify;
+  font-size: 1.2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+
 .section_B > #image_dragon {
   float: right;
   margin-right: 5vw;
-  margin-top: 2vw;
+  margin-top: 4vw;
   width: 30vw;
 }
 
@@ -74,6 +112,47 @@ section {
   width: 25vw;
 }
 
+.section_N > #image_starship {
+  float: left;
+  margin-left: 5vw;
+  margin-top: 4vw;
+  width: 35vw;
+}
+
+.section_B > #image_elonmusk{
+  float: right;
+  margin-right: 5vw;
+  margin-top: 2vw;
+  width: 30vw;
+}
+
+.section_N > #image_tesla {
+  float: left;
+  margin-left: 5vw;
+  margin-top: 4vw;
+  width: 25vw;
+}
+
+.section_B > #image_scandale{
+  float: right;
+  margin-right: 5vw;
+  margin-top: 2vw;
+  width: 25vw;
+}
+
+.section_B > #image_spacex{
+  float: right;
+  margin-right: 1vw;
+  margin-top: 7vw;
+  width: 40vw;
+}
+
+.section_N > #image_mars {
+  float: left;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  width: 25vw;
+}
 
 /*hr{
   	color: #000000;

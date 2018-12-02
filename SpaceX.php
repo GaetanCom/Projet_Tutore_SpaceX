@@ -14,19 +14,31 @@
     <main>
     	<a href="Article.php?article=SpaceX_Présentation">
     		<section class="section_B" id="">
-    			<h2> PRESENTATION </h2>
+    			<div>
+    				<h2> PRESENTATION </h2>
+    				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
+    			</div>
+    			<img src="Images/Logo2.png" alt="SpaceX Logo" id="image_spacex"/>
     		</section>
     	</a>
 
     	<a href="Article.php?article=SpaceX_Projets">
     		<section class="section_N" id="">
-    			<h2> PROJETS </h2>	
+    			<div>
+    				<h2> PROJETS </h2>	
+    				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
+    			</div>
+    			<img src="Images/Mars.png" alt="Planète Mars" id="image_mars"/>
     		</section>
     	</a>
 
     	<a href="Article.php?article=SpaceX_Historique">
     		<section class="section_B" id=""> 
-    			<h2> HISTORIQUE </h2>	
+    			<div>
+    				<h2> HISTORIQUE </h2>
+    				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
+    			</div> 
+    			<img src="Images/.png" alt="Planète Mars" id="image_mars">
     		</section>
     	</a>
 
