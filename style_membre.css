@@ -1,0 +1,19 @@
+div .membre{
+  border: 1px Black solid;
+  border-radius: 3%;
+  display: block;
+  float: left;
+  width: 31%;
+  margin:10px;
+  margin-left: 20px;
+  height: 225px;
+  text-align: center;
+  line-height: 75px;
+
+}
+div .texte{
+  margin-top: 40px;
+}
+div.second{
+  padding-left: 20%;
+}
