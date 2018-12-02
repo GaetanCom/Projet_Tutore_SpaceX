@@ -10,36 +10,46 @@
 
   <body>
     <?php include("header.html"); ?>
-    <?php include("Sous_Menu.php"); ?>
 
     <main>
-      <section class="section_G section_1" id="Dragon">
-        <h2> DRAGON </h2>
+    	<a href="Article.php?article=Fusées_Dragon">
+    		<section class="section_B" id="Dragon">
+    		  	<h2> DRAGON </h2>
+    		  	<p> </p>
+    		  	<img src="Images/Dragon.png" alt="Dragon Logo" id="image_dragon"/>
+    		</section>
+    	</a>
+      
+    	<a href="Article.php?article=Fusées_Falcon9">
+    		<section class="section_N" id="Falcon9">
+        		<h2> FALCON 9 </h2>
+        		<p> </p>
+    		  	<img src="Images/Falcon9_blanc.png" alt="Falcon9 Logo" id="image_falcon9"/>
+        	</section>
+    	</a>
+      
+    	<a href="Article.php?article=Fusées_FalconHeavy">
+    		<section class="section_B" id="Falcon_Heavy"> 
+    		  	<h2> FALCON HEAVY </h2>
+    		  	<p> </p>
+    		  	<img src="Images/FalconHeavy.jpg" alt="FlaconHeavy Logo" id="image_falconheavy"/>
+    		</section>
+    	</a>
+      
+    	<a href="Article.php?article=Fusées_Starship">
+    		<section class="section_N" id="Big_Falcon_Rocket"> 
+    		  	<h2> STARSHIP </h2>
+    		  	<p> </p>
+    		  	<img src="Images/Dragon.png" alt="Dragon Logo"/>
+    		</section>
+    	</a>
+      
 
-        <a href=""> </a>
+      <section class="section_B" id=""> 
         
       </section>
 
-      <section class="section_D section_2" id="Falcon9">
-        <h2> FALCON 9 </h2>
-        
-      </section>
-
-      <section class="section_G section_3" id="Falcon_Heavy"> 
-        <h2> FALCON HEAVY </h2>
-        
-      </section>
-
-      <section class="section_D section_4" id="Big_Falcon_Rocket"> 
-        <h2> Starship </h2>
-        
-      </section>
-
-      <section class="section_G section_5" id=""> 
-        
-      </section>
-
-      <section class="section_D section_6" id=""> 
+      <section class="section_N" id=""> 
         
       </section>
     </main>

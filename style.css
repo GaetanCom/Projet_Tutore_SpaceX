@@ -8,54 +8,29 @@ body {
   	width: 100%;
   	font-family: Arial, sans serif;
   	text-align: justify;	
-  	background-size: cover;
-  	background-attachment: fixed;
-  	background-image: url("Images/fond5.png");
+    background-color: #FFFFFF
 }
 
 main {
-	margin-top: 35px;
-  	display: block;
-  	overflow: hidden;
+  margin-top: -4px;
+  display: block;
+  overflow: hidden;
 }
 
 section {
 	height: 30vw; 
 	display: block;
 	overflow: hidden;
-	margin-top: 5px;
-	margin-bottom: 5px;
 	border-top: gray 2px solid;
 	border-bottom: gray 2px solid;
 }
 
-.section_1 {
-	background-color: #1E1E1E;
-	color: white;
+.section_B{
+  background-color: #FFFFFF;
 }
 
-.section_2 {
-	background-color: #3C3C3C;
-}
-
-.section_3 {
-	background-color: #5A5A5A;
-}
-
-.section_4 {
-	background-color: #787878;
-}
-
-.section_5 {
-	background-color: #969696;
-}
-
-.section_6 {
-	background-color: #B4B4B4;
-}
-
-.section_G > h2{
-  color: #FFFFFF;
+.section_B > h2{
+  color: #000000;
   font-size: 5vw;
   margin-top: 5vw;
   margin-bottom: 5vw;
@@ -64,7 +39,11 @@ section {
   float: left;
 }
 
-.section_D > h2{
+.section_N{
+  background-color: #000000;
+}
+
+.section_N > h2{
   color: #FFFFFF;
   font-size: 5vw;
   margin-top: 5vw;
@@ -73,6 +52,28 @@ section {
   margin-right: 2vw;
   float: right;
 }
+
+.section_B > #image_dragon {
+  float: right;
+  margin-right: 5vw;
+  margin-top: 2vw;
+  width: 30vw;
+}
+
+.section_N > #image_falcon9 {
+  float: left;
+  margin-left: 5vw;
+  margin-top: 0.2vw;
+  width: 30vw;
+}
+
+.section_B > #image_falconheavy {
+  float: right;
+  margin-right: 5vw;
+  margin-top: 2vw;
+  width: 25vw;
+}
+
 
 /*hr{
   	color: #000000;
@@ -110,3 +111,53 @@ article > h3{
 
   /*float: left;*/
 /*}*/
+
+
+
+/* ========================================================================== */
+
+/* ARTICLES */
+
+#articles{
+  width: 65vw;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 5vw;
+}
+
+#articles > h2{
+  font-size: 4.5vw;
+}
+
+#articles > #P_Erreur{
+  font-size: 2vw;
+}
+
+#articles > #P_Erreur > span{
+  font-size: 1vw;
+}
+
+#articles > #A_Erreur{
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 4vw;
+  width: 20vw;
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 4vw;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#articles > #A_Erreur:hover{
+  color: #00538B;
+  background-color: #767676;
+}
+
+#articles > #contenu_articles {
+  width: 60vw;
+  margin: auto;
+}
+

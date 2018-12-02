@@ -96,7 +96,7 @@ header{
 /* FOOTER */
 
 footer{
-  background-color: #000000; 
+  background-color: #1B1B1B; 
   position: absolute;
   bottom: 0;
   left: 0;
@@ -143,24 +143,23 @@ footer{
 
 #Sous_Menu{
 	display: block;
-	width: 100%;
-	height: 40px;
-	background-color: rgba(255,0,0,0.95);
+	width: 11vw;
+  margin-left: 3vw;
+  margin-top: 4vw;
+  background-color: #00538B;
+  color: #FFFFFF;
   position: fixed;
-  top: 50px;
-}
-
-#fixed{
-	position: relative;
-  background-color: blue;
+  text-align: left;
+  padding-bottom: 1vw;
 }
 
 #Sous_Menu_Contenu > h4{
-  	padding-left: 5%;
+    margin: 0.9vw;
 }
 
 #Sous_Menu_Contenu > div{
   	text-decoration: none;
+    margin: 0.5vw
 }
 
 #Sous_Menu_Contenu > div > a{

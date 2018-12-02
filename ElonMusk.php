@@ -5,40 +5,40 @@
       <link rel="stylesheet" href="style_footer_header.css"/>
       <link rel="stylesheet" href="style.css"/>
       <link rel="icon" href="Images/Logo2.png"/>
-      <title> SpaceX - Elon Musk </title>
+      <title> Elon Musk | SpaceX </title>
   </head>
 
   <body>
     <?php include("header.html"); ?>
-    <?php include("Sous_Menu.php"); ?>
 
     <main>
-      <section class="section_G section_1" id="">
-        <h2> PRESENTATION </h2>
-
-        <a href=""> </a>
+    	<a href="Article.php?article=ElonMusk_Présentation">
+    		<section class="section_B" id="">
+        		<h2> PRESENTATION </h2>
+      		</section>
+    	</a>
+     	
+    	<a href="Article.php?article=ElonMusk_Entreprises">
+    		<section class="section_N" id="">
+        		<h2> SES ENTREPRISES </h2>
+      		</section>
+    	</a>
+      
+    	<a href="Article.php?article=ElonMusk_Scandales">
+    		<section class="section_B" id=""> 
+        		<h2> SCANDALES </h2>   
+      		</section>
+    	</a>
+     
+      <section class="section_N" id=""> 
         
       </section>
 
-      <section class="section_D section_2" id="">
-        <h2> SES ENTREPRISES </h2>
+      <section class="section_B" id=""> 
         
       </section>
 
-      <section class="section_G section_3" id=""> 
-        <h2> SCANDALES </h2>
-        
-      </section>
-
-      <section class="section_D section_4" id=""> 
-        
-      </section>
-
-      <section class="section_G section_5" id=""> 
-        
-      </section>
-
-      <section class="section_G section_6" id=""> 
+      <section class="section_N" id=""> 
         
       </section>
     </main>
