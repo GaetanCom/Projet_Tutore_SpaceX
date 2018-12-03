@@ -19,6 +19,7 @@ main {
 
 section {
 	height: 30vw; 
+  min-height: 200px;
 	display: block;
 	overflow: hidden;
 	border-top: gray 2px solid;
