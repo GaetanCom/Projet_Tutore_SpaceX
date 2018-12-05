@@ -3,17 +3,17 @@
 header{
     background-color: #000000;
     display: inline-block;
-    height: 50px;
+    height: 3vw;
 }
 
 .contenu{
     margin: auto;
-    width: 60%;
+    width: 70%;
 }
 
 #Logo_site{
   width: 30%;
-  margin: 5px 0 5px 0;
+  margin-top: 0.1vw;
   float: left;
   display: block;
   outline: 0;
@@ -30,66 +30,29 @@ header{
   display: flex;
   justify-content: flex-start;
   padding-top: 1.9%;
-  /* position: absolute; */
-  /* bottom: 0; */
 }
 
 #menu_principal .menu{
   color: #FFFFFF;
   text-decoration: none;
-  width: 20%;
+  width: auto;
+  padding: 0 1vw 0 1vw;
   font-weight: bold;
   text-align: center;
   font-size: 1.1vmax;
   outline: 0;
+  transition: 1s;
+}
+
+#menu_principal .menu:hover{
+  color: #FFFF7F;
+  transition: 1s;
 }
 
 .contenu .menu{
-  height: 100%;
+  margin: 0;
 }
 
-#menu_principal .menu :focus, #menu_principal .menu:hover{
-  /*color: #A7A9AC;*/
-  /*border-bottom: 2px #A7A9AC solid;*/
-  /*border-width: 20px;*/
-  /*box-decoration-break: 10px;*/
-
-}
-
-#menu_principal .menu:hover #A{
-	display: block;
-	margin: auto;
-	width: 55%;
-	border-bottom: 3px #A7A9AC solid;
-}
-
-#menu_principal .menu:hover #E{
-	display: block;
-	margin: auto;
-	width: 80%;
-	border-bottom: 3px #A7A9AC solid
-}
-
-#menu_principal .menu:hover #S{
-	display: block;
-	margin: auto;
-	width: 53%;
-	border-bottom: 3px #A7A9AC solid
-}
-
-#menu_principal .menu:hover #F{
-	display: block;
-	margin: auto;
-	width: 51%;
-	border-bottom: 3px #A7A9AC solid
-}
-
-#menu_principal .menu:hover #C{
-	display: block;
-	margin: auto;
-	width: 90%;
-	border-bottom: 3px #A7A9AC solid
-}
 
 /* ========================================================================== */
 
