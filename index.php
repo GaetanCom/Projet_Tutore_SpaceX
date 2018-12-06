@@ -9,7 +9,6 @@
   </head>
 
   <body>
-
     <section id="menu_accueil">
       <img src="Images/Logo.png">
 
@@ -42,7 +41,7 @@
           <p>Elon Musk</p>
         </a>
       </div>
-        
+
       <div id="Fusees" class="partie1">
         <a href="Fusees.php" class="div_accueil">
           <p>Fusées</p>
@@ -56,9 +55,9 @@
             aaaaaa
           </div>
         </a>
-        
+
       </div>
-    	
+
       <div id="concurents" class="partie2">
         <a href="Concurrents.php" class="div_accueil">
           <div class="sous_partie">
@@ -87,10 +86,26 @@
           </div>
         </a>
       </div>
+      <div id="contact" class="partie1">
+        <a href="contact.php" class="div_accueil">
+          <p>contact</p>
+          <div class="sous_partie">
+            aaaaaa
+            <br>
+            aaaaaa
+            <br>
+            aaaaaa
+            <br>
+            aaaaaa
+          </div>
+        </a>
+      </div>
 
     </section>
 
-    <?php include("footer.html"); ?>
+    <?php
+    include("footer.html");
+     ?>
 
   </body>
 </html>

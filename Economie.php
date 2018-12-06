@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <?php include("header.html"); ?>
+    <?php include("header.html");
+    include("totop.php"); ?>
 
     <main>
     	<a href="Article.php?article=Economie">
@@ -21,17 +22,17 @@
     		  	<img src="Images/dollars.png" alt="Argent" id="image_dollars"/>
     		</section>
     	</a>
-      
+
     	<a href="Article.php?article=Droits_Juridique">
     		<section class="section_N">
     			<div>
     				<h2>  DROITS/JURIDIQUE </h2>
     				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
-    			</div>		
+    			</div>
     		  	<img src="Images/book.png" alt="Falcon9 Logo" id="image_falcon9"/>
         	</section>
     	</a>
-      
+
     </main>
 
 

@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <?php include("header.html"); ?>
+    <?php include("header.html");
+    include("totop.php"); ?>
 
     <main>
     	<a href="Article.php?article=Fusées_Dragon">
@@ -21,33 +22,33 @@
     		  	<img src="Images/Dragon.png" alt="Dragon Logo" id="image_dragon"/>
     		</section>
     	</a>
-      
+
     	<a href="Article.php?article=Fusées_Falcon9">
     		<section class="section_N">
     			<div>
     				<h2> FALCON 9 </h2>
     				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
-    			</div>		
+    			</div>
     		  	<img src="Images/Falcon9_blanc.png" alt="Falcon9 Logo" id="image_falcon9"/>
         	</section>
     	</a>
-      
+
     	<a href="Article.php?article=Fusées_FalconHeavy">
-    		<section class="section_B"> 
+    		<section class="section_B">
     			<div>
     				<h2> FALCON HEAVY </h2>
     				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
-    			</div>		  	
+    			</div>
     		  	<img src="Images/FalconHeavy.jpg" alt="FlaconHeavy Logo" id="image_falconheavy"/>
     		</section>
     	</a>
-      
+
     	<a href="Article.php?article=Fusées_Falcon9">
     		<section class="section_N">
     			<div>
     				<h2> STARSHIP </h2>
     				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
-    			</div>       		
+    			</div>
     		  	<img src="Images/Starship.png" alt="Falcon9 Logo" id="image_starship"/>
         	</section>
     	</a>

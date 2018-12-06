@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <?php include("header.html"); ?>
+    <?php include("header.html");
+    include("totop.php"); ?>
     <div class="cases">
       <div class="first">
         <div class="membre">

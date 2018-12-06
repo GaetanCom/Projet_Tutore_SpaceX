@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <?php include("header.html"); ?>
+    <?php include("header.html");
+    include("totop.php"); ?>
 
     <main>
     	<a href="Article.php?article=ElonMusk_Présentation">
@@ -21,7 +22,7 @@
     			<img src="Images/ElonMusk.png" alt="image Elon Musk" id="image_elonmusk">
       		</section>
     	</a>
-     	
+
     	<a href="Article.php?article=ElonMusk_Entreprises">
     		<section class="section_N" id="">
     			<div>
@@ -31,18 +32,18 @@
     			<img src="Images/logo_Tesla.png" alt="image Elon Musk" id="image_tesla">
       		</section>
     	</a>
-      
+
     	<a href="Article.php?article=ElonMusk_Scandales">
     		<section class="section_B" id="">
     			<div>
     				<h2> SCANDALES </h2>
     				<p> Au coeur de nombreux scandales, Elon Musk est un milliardaire très controversé. </p>
-    			</div>	
+    			</div>
     			<img src="Images/justice.png" alt="image scandales" id="image_scandale">
       		</section>
     	</a>
     </main>
-    
+
       <?php include("footer.html"); ?>
   </body>
 
@@ -53,5 +54,5 @@
   <script type="text/javascript">
     <?php include("fonction2.js") ?>
   </script>
-  
+
 </html>

@@ -1,0 +1,20 @@
+.back-to-top {
+	position: fixed;
+	margin-left: 90%;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+	padding: 1em;
+	display: block;
+  opacity: 0.3;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+}
+#scrollup{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
