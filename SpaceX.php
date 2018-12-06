@@ -13,7 +13,7 @@
 
     <main>
     	<a href="Article.php?article=SpaceX_Présentation">
-    		<section class="section_B" id="">
+    		<section class="section_B">
     			<div>
     				<h2> PRESENTATION </h2>
     				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
@@ -23,7 +23,7 @@
     	</a>
 
     	<a href="Article.php?article=SpaceX_Projets">
-    		<section class="section_N" id="">
+    		<section class="section_N">
     			<div>
     				<h2> PROJETS </h2>	
     				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
@@ -33,7 +33,7 @@
     	</a>
 
     	<a href="Article.php?article=SpaceX_Historique">
-    		<section class="section_B" id=""> 
+    		<section class="section_B"> 
     			<div>
     				<h2> HISTORIQUE </h2>
     				<p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
@@ -42,17 +42,15 @@
     		</section>
     	</a>
 
-    	<section class="section_N" id=""> 
-    		
-    	</section>
-
-    	<section class="section_B" id=""> 
-    		
-    	</section>
-
-    	<section class="section_N" id=""> 
-    		
-    	</section>
+      <a href="Article.php?article=Concurrents">
+        <section class="section_N">
+          <div>
+            <h2> CONCURRENTS </h2>  
+            <p> She travelling acceptance men unpleasant her especially entreaties law. Law forth but end any arise chief arose. Old her say learn these large. Joy fond many ham high seen this. Few preferred continual sir led incommode neglected. Discovered too old insensible collecting unpleasant but invitation. </p>
+          </div>
+          <img src="Images/Blue_Origin.png" alt="logo Blue Origin" id="image_blue_origin"/>
+        </section>
+      </a>
     </main>
     
       <?php include("footer.html"); ?>

@@ -31,6 +31,9 @@
           case ("SpaceX_Historique"): 
             $titre_article = "SpaceX -- Historique";
             $article = "Articles/SpaceX_Historique.html"; break;
+          case ("SpaceX_Historique"): 
+            $titre_article = "SpaceX -- Historique";
+            $article = "Articles/SpaceX_Historique.html"; break;
 
 
           case ("Fusées_Dragon"): 
@@ -46,6 +49,12 @@
             $titre_article = "Fusées -- Starship";
             $article = "Articles/Fusées_Starship.html"; break;
 
+          case ("Economie"): 
+            $titre_article = "Economie -- Economie";
+            $article = "Articles/Economie.html"; break;
+          case ("Economie"): 
+            $titre_article = "Economie -- Droits/Juridique";
+            $article = "Articles/Droits_Juridique.html"; break;
 
           case ("Erreur"): 
             $article = "Articles/Mauvaise_page.html"; break;
